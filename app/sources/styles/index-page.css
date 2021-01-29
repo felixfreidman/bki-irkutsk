@@ -287,3 +287,55 @@ input[name="faa-question"]:checked ~ .question-block_content {
   color: #043689;
   font-weight: bold;
 }
+
+.main_contact-section {
+  background-color: #21252b;
+  width: 100%;
+  height: fit-content;
+  height: -moz-fit-content;
+  display: flex;
+}
+.contact-section_company,
+.contact-section_contact-section,
+.contact-section_social {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section_company {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+.contact-section_social {
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.contact_header {
+  text-transform: uppercase;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.caddoc {
+  width: 16%;
+  border-bottom: 2px solid #fadb29;
+}
+
+.contact {
+  width: 20%;
+  border-bottom: 2px solid #fadb29;
+}
+
+.internet {
+  width: 35%;
+  border-bottom: 2px solid #fadb29;
+}
+.contact_content {
+  margin-top: 20px;
+  color: #b0bac2;
+  line-height: 30px;
+}
