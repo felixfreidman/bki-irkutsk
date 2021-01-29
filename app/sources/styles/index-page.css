@@ -224,7 +224,7 @@ body {
 }
 .faa-section_question-block {
   background-color: #043689;
-  width: 80%;
+  width: 95%;
   height: fit-content;
   margin-bottom: 15px;
   color: white;
@@ -233,6 +233,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 50%;
 }
 input[name="faa-question"] {
   display: none;
@@ -259,4 +260,24 @@ input[name="faa-question"]:checked ~ .question-block_content {
 }
 .question-block_content {
   display: none;
+}
+
+.main_about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.about_header {
+  font-size: 30px;
+}
+.about_content {
+  border: 1px solid #f2f2f2;
+  width: 95%;
+  line-height: 20px;
+}
+
+.combine-section {
+  display: flex;
 }
