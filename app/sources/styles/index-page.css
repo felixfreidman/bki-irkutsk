@@ -125,33 +125,31 @@ body {
   background-repeat: no-repeat;
   box-shadow: inset 2000px 2000px 1000px rgba(0, 0, 0, 0.6);
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
 }
 
 .landing-section_image {
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  top: 30px;
-  left: 30px;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
 }
 
 .landing-section_name {
-  margin-top: 100px;
-  margin-right: 50px;
+  margin-top: 50px;
   color: white;
-  font-size: 30px;
+  font-size: 64px;
 }
 
 .landing-section_name + a {
   text-decoration: none;
+  width: 30%;
+  margin-top: 50px;
 }
 
 .orderCall-button {
-  position: absolute;
-  bottom: 400px;
-  right: 50px;
   color: white;
+  text-align: center;
   font-size: 30px;
   background-color: #5cd65c;
   padding: 10px 50px;
@@ -191,12 +189,13 @@ body {
   margin-right: 10px;
 }
 .service_header {
-  background-color: #fadb29;
+  background-color: #043689;
   padding: 15px;
   display: flex;
   justify-content: center;
   font-weight: bold;
   font-size: 20px;
+  color: white;
 }
 .service_body-content {
   display: flex;
@@ -224,10 +223,11 @@ body {
   box-shadow: inset 100px 100px 10px rgba(0, 0, 0, 0.1);
 }
 .faa-section_question-block {
-  background-color: #fadb29;
+  background-color: #043689;
   width: 80%;
   height: fit-content;
   margin-bottom: 15px;
+  color: white;
 }
 .main_faa-section {
   display: flex;
@@ -252,6 +252,7 @@ input[name="faa-question"] {
   display: flex;
   flex-direction: column;
   line-height: 30px;
+  color: black;
 }
 input[name="faa-question"]:checked ~ .question-block_content {
   display: flex;
