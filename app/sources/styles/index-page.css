@@ -48,7 +48,7 @@ body {
   width: 50%;
 }
 .number-section_phone-icon {
-  background-color: #fadb29;
+  background-color: #043689;
   width: 30px;
   height: 30px;
   background-image: url(../images/phone.png);
@@ -60,7 +60,7 @@ body {
 }
 
 .number-section_mail-icon {
-  background-color: #fadb29;
+  background-color: #043689;
   width: 30px;
   height: 30px;
   background-image: url(../images/mail.png);
@@ -245,6 +245,7 @@ input[name="faa-question"] {
   font-weight: normal;
   cursor: pointer;
   line-height: 20px;
+  font-size: 13px;
 }
 .question-block_content {
   background-color: #fff;
@@ -321,17 +322,17 @@ input[name="faa-question"]:checked ~ .question-block_content {
 
 .caddoc {
   width: 17%;
-  border-bottom: 2px solid #fadb29;
+  border-bottom: 2px solid #043689;
 }
 
 .contact {
-  width: 24%;
-  border-bottom: 2px solid #fadb29;
+  width: 50%;
+  border-bottom: 2px solid #043689;
 }
 
 .internet {
-  width: 35%;
-  border-bottom: 2px solid #fadb29;
+  width: 100%;
+  border-bottom: 2px solid #043689;
 }
 .contact_content {
   margin-top: 20px;
