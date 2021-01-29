@@ -271,13 +271,19 @@ input[name="faa-question"]:checked ~ .question-block_content {
 
 .about_header {
   font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 .about_content {
   border: 1px solid #f2f2f2;
   width: 95%;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 .combine-section {
   display: flex;
+}
+.about_intro {
+  color: #043689;
+  font-weight: bold;
 }
