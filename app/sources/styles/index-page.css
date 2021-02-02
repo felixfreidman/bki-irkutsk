@@ -1,10 +1,16 @@
+@font-face {
+  font-family: "Game Station";
+  src: url("../fonts/GamestationCond.otf");
+}
+
 body {
   display: flex;
   flex-direction: column;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Helvetica";
+  font-family: "Game Station";
+  letter-spacing: 2px;
   font-weight: 100;
   background-color: #f2f2f2;
 }
@@ -120,7 +126,7 @@ body {
 .main_landing-section {
   width: 100%;
   position: relative;
-  background-image: url("../images/landing_image.jpg");
+  background-image: url("../images/landing_image.png");
   min-height: 600px;
   background-size: cover;
   background-position: center;
@@ -129,6 +135,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .landing-section_image {
@@ -141,6 +148,8 @@ body {
   margin-top: 50px;
   color: white;
   font-size: 64px;
+  font-family: "Game Station";
+  letter-spacing: 5px;
 }
 
 .landing-section_name + a {
@@ -613,7 +622,7 @@ input[name="faa-question"]:checked ~ .question-block_content {
   .service-body_geo,
   .service-body_tech,
   .service-body_law {
-    flex-basis: 98%;
+    flex-basis: 90%;
     flex-grow: 0;
     flex-shrink: 0;
     width: 100%;
@@ -739,7 +748,7 @@ input[name="faa-question"]:checked ~ .question-block_content {
   .service-body_geo,
   .service-body_tech,
   .service-body_law {
-    flex-basis: 98%;
+    flex-basis: 90%;
     flex-grow: 0;
     flex-shrink: 0;
     width: 100%;
