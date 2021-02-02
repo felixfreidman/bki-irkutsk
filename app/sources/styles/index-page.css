@@ -573,7 +573,7 @@ input[name="faa-question"]:checked ~ .question-block_content {
     display: none;
   }
   .bottom-section_navigation-section > a {
-    font-size: 12px;
+    font-size: 10px;
     margin-left: 0;
   }
   .main_services-section {
