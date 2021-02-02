@@ -629,7 +629,7 @@ input[name="faa-question"]:checked ~ .question-block_content {
     width: 100%;
   }
   .service-body_geo {
-    margin-left: 200%;
+    margin-left: 190%;
   }
   .combine-section {
     flex-direction: column;
