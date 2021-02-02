@@ -618,6 +618,7 @@ input[name="faa-question"]:checked ~ .question-block_content {
     display: flex;
     overflow-x: scroll;
     height: auto;
+    align-items: flex-start;
   }
   .service-body_geo,
   .service-body_tech,
