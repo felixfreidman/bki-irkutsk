@@ -745,6 +745,7 @@ input[name="faa-question"]:checked ~ .question-block_content {
     display: flex;
     overflow-x: scroll;
     height: auto;
+    justify-content: flex-start;
   }
   .service-body_geo,
   .service-body_tech,
@@ -755,7 +756,7 @@ input[name="faa-question"]:checked ~ .question-block_content {
     width: 100%;
   }
   .service-body_geo {
-    margin-left: 200%;
+    margin-left: 190%;
   }
   .combine-section {
     flex-direction: column;
